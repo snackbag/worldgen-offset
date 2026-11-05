@@ -3,7 +3,8 @@
 	"package": "net.snackbag.wgoffset.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"NoiseMixin",
+		"WeirdScaledSamplerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -19,5 +19,5 @@ public class ModConfig extends CConfig {
 
     public final CCategory base = CCategory.of("base", "Configuration for Worldgen Offset.");
     public final CInteger offsetX = register(base, new CInteger("offsetX", "The X-coordinate offset applied to world generation. The value 1000 means that the generation at world x=0 will be the generation at x=1000 if the world were generated normally.", 0));
-    public final CInteger offsetY = register(base, new CInteger("offsetY", "The Y-coordinate offset applied to world generation. The value 1000 means that the generation at world y=0 will be the generation at y=1000 if the world were generated normally.", 0));
+    public final CInteger offsetZ = register(base, new CInteger("offsetZ", "The Z-coordinate offset applied to world generation. The value 1000 means that the generation at world z=0 will be the generation at z=1000 if the world were generated normally.", 0));
 }
