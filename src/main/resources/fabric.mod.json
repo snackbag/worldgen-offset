@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "worldgen-offset",
+	"version": "${version}",
+	"name": "Worldgen offset",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/worldgen-offset/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.snackbag.wgoffset.WorldgenOffset"
+		]
+	},
+	"mixins": [
+		"worldgen-offset.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
