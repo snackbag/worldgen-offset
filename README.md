@@ -1,9 +1,4 @@
-# Worldgen offset
+# Worldgen Offset
 
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Did you find a really cool spawn position on an obscure seed, but it's thousands of blocks away from spawn? Worry 
+not! Worldgen Offset will save your day by shifting Minecraft's worldgen center to another position.
